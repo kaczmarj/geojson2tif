@@ -1,5 +1,7 @@
 # GeoJSON to TIFF
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/kaczmarj/geojson2tif)](https://hub.docker.com/r/kaczmarj/geojson2tif)
+
 An entirely non-general tool to convert a GeoJSON set of polygons into a multi-resolution TIF image.
 
 This code was written to convert polygons of nuclear segmentations (https://doi.org/10.1038/s41597-020-0528-1)
