@@ -28,4 +28,5 @@ RUN apt-get update -qq \
 ENV PYTHONPATH=/opt/ASAP/bin:$PYTHONPATH
 
 COPY geojson-to-tif.py /opt/geojson-to-tif/
+COPY geojson-to-tif-hovernet.py /opt/geojson-to-tif/
 ENTRYPOINT ["python3.8", "/opt/geojson-to-tif/geojson-to-tif.py"]
